@@ -1,0 +1,74 @@
+.container-portada{
+    width: 1340px;
+    height: 213px;
+    background-image: url(../imagen/76256.jpg);
+    background-size: 250%;
+    animation: movimiento 10s infinite alternate;
+
+}
+@keyframes movimiento{
+
+    from {background-position: bottom left;}
+  to{background-position: top right;}
+   
+}
+.capa-gradient1{  
+    width: 400px;
+    height: 450px;
+
+    filter: opacity(.7);    
+    top: 140px;
+    left: 50px;
+    position: absolute;         
+
+    background-image: url(../imagen/totto.jpg);   
+    background-size: 100%;  
+    box-shadow: 4px 10px 15px rgb(0, 0, 0,0.5);  
+    
+      
+}
+.capa-gradient1:hover{    
+    background:transparent;
+}
+
+.capa-gradient2{
+    width: 400px;
+    height: 450px;
+
+    filter: opacity(.7);    
+    top: 140px;
+    left: 485px;
+    position: absolute;        
+
+    background-image: url(../imagen/lili\ pink.jpg);   
+    background-size: 100%;  
+    box-shadow: 4px 10px 15px rgb(0, 0, 0,0.5);  
+}
+.capa-gradient2:hover{    
+    background: transparent;
+}
+
+
+.capa-gradient3{
+    width: 400px;
+    height: 450px;
+
+    filter: opacity(.7);
+    top: 140px;
+    left: 920px;
+    position: absolute;        
+
+    background-image: url(../imagen/suarez.jpg);
+    background-size: 100%;
+    box-shadow: 4px 10px 15px rgb(0, 0, 0,0.5);
+}
+.capa-gradient3:hover{    
+    background: transparent;
+}
+
+.estilo{    
+    font-size: 60px;
+    color: aliceblue;
+    font-family:sans-serif;
+
+}
