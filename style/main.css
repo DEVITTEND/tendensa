@@ -77,12 +77,12 @@
         height: 100%;
     }
     .capa-gradient1{
-        width: auto;
+        width: 480px;
     }
     .capa-gradient3{
-        height: auto;
+        width: 480px;
     }
     .estilo{
-        height: auto;
+        width: 480px;
     }
 }
