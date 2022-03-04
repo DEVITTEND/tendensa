@@ -72,16 +72,17 @@
     font-family:sans-serif;
 
 }
-@media screen and (max-width: 100%){
+@media screen and (max-width: 480px){
     .container-portada{
-        width: 90%;
+        height: 100%;
     }
-    .container-portada{
-        width: 60%;
+    .capa-gradient1{
+        width: auto;
     }
-    .container-portada{
-        width:30%;
+    .capa-gradient3{
+        height: auto;
+    }
+    .estilo{
+        height: auto;
     }
 }
-
-
