@@ -72,3 +72,16 @@
     font-family:sans-serif;
 
 }
+@media screen and (max-width: 100%){
+    .container-portada{
+        width: 90%;
+    }
+    .container-portada{
+        width: 60%;
+    }
+    .container-portada{
+        width:30%;
+    }
+}
+
+
