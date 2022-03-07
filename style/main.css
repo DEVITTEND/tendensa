@@ -21,22 +21,22 @@
   to{background-position: top right;}
    
 }
-@media(max-width: 720px){
+@media(max-width: 1024px){
     .imagen-portada{
-        width: 720px;
-       height: 540px;
+        width: 1024px;
+       height: 1024px;
     }
 }
-@media(max-width: 667px){
+@media(max-width: 768px){
     .imagen-portada{
-        width: 667px;
-       height: 375px;
+        width: 768px;
+       height: 768px;
     }    
 }
-@media(max-width: 1280px){
+@media(max-width: 480px){
     .imagen-portada{
-        width: 1280px;
-       height: 800px;
+        width: 480px;
+       height: 480px;
     }    
 }
  
