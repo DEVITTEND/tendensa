@@ -6,8 +6,8 @@
     box-sizing: border-box;
 }
 .imagen-portada{   
-    width: 130%;
-    height: 130%;
+    width: 1340px;
+    height: 630px;
     background-size:cover;
     background-position: center center;
     height: 900px;
