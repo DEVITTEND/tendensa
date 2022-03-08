@@ -21,7 +21,18 @@
   to{background-position: top right;}
    
 }
-
+@media(max-width: 2736x){
+    .imagen-portada{
+        width: 2736px;
+       height: 4000px;
+    }
+}
+@media(max-width: 1920px){
+    .imagen-portada{
+        width: 1920px;
+       height: 1920px;
+    }    
+}
 @media(max-width: 1400px){
     .imagen-portada{
         width: 1400px;
