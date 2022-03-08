@@ -30,13 +30,13 @@
 @media(max-width: 1920px){
     .imagen-portada{
         width: 1920px;
-       height: 1500px;
+       height: 1920px;
     }    
 }
 @media(max-width: 1400px){
     .imagen-portada{
         width: 1400px;
-       height: 1000px;
+       height: 1400px;
     }    
 }
  
