@@ -24,19 +24,19 @@
 @media(max-width: 2736x){
     .imagen-portada{
         width: 2736px;
-       height: 4000px;
+       height: 1824px;
     }
 }
 @media(max-width: 1920px){
     .imagen-portada{
         width: 1920px;
-       height: 1920px;
+       height: 1080px;
     }    
 }
 @media(max-width: 1400px){
     .imagen-portada{
         width: 1400px;
-       height: 1050px;
+       height: 768px;
     }    
 }
  
