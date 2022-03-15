@@ -5,7 +5,9 @@
     list-style: none;
     box-sizing: border-box;
 }
-.imagen-portada{   
+.imagen-portada{  
+    display:flex; 
+    justify-content: center;
     width: 100%;
     background-size:cover;
     background-position: center center;
