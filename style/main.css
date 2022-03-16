@@ -25,25 +25,6 @@
   to{background-position: top right;}
    
 }
-@media(max-width: 2736x){
-    .imagen-portada{
-        width: 2736px;
-       height: 1824px;
-    }
-}
-@media(max-width: 1920px){
-    .imagen-portada{
-        width: 1920px;
-       height: 1080px;
-    }    
-}
-@media(max-width: 1400px){
-    .imagen-portada{
-        width: 1400px;
-       height: 2200px;
-       
-    }
-}
  
 .capa-gradient1{  
     width: 400px;
@@ -88,8 +69,25 @@
 }
 
 .estilo{    
+    display: flex;    
+    width: 100%;
+    justify-content: center;    
     font-size: 60px;
     color: aliceblue;
     font-family:sans-serif;
-
+}
+.galeria{
+    display: inline;
+    flex-wrap: wrap;
+    padding: 20px 30px;
+}
+.columna{    
+    flex: 100%;
+    max-width: 100%;
+    padding: 0 4px;
+}
+.columna{
+    margin-top: 25px;
+    vertical-align: top;
+    width: 100%;    
 }
