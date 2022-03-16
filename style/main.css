@@ -5,9 +5,8 @@
     list-style: none;
     box-sizing: border-box;
 }
-.imagen-portada{  
-    
-    width: 100%;
+.imagen-portada{      
+    width: 100%;    
     background-size:cover;
     background-position: center center;
     height: 2150px;
@@ -22,53 +21,9 @@
 @keyframes movimiento{
 
     from {background-position: bottom left;}
-  to{background-position: top right;}
-   
+  to{background-position: top right;}   
 }
- 
-.capa-gradient1{  
-    width: 400px;
-    height: 500px;
-
-    filter: opacity(.7);    
-    top: 140px;
-    left: 50px;
-    position: absolute;         
-
-    background-image: url(../imagen/totto.jpg);   
-    background-size: 100%;  
-    box-shadow: 4px 10px 15px rgb(0, 0, 0,0.5);  
-    
-      
-}
-.capa-gradient2{
-    width: 400px;
-    height: 500px;
-
-    filter: opacity(.7);    
-    top: 140px;
-    left: 485px;
-    position: absolute;        
-
-    background-image: url(../imagen/pink.jpg);   
-    background-size: 100%;  
-    box-shadow: 4px 10px 15px rgb(0, 0, 0,0.5);  
-}
-.capa-gradient3{
-    width: 400px;
-    height: 500px;
-
-    filter: opacity(.7);
-    top: 140px;
-    left: 920px;
-    position: absolute;        
-
-    background-image: url(../imagen/suarez.jpg);
-    background-size: 100%;
-    box-shadow: 4px 10px 15px rgb(0, 0, 0,0.5);
-}
-
-.estilo{    
+.estilo{   
     display: flex;    
     width: 100%;
     justify-content: center;    
